@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin:0;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background-color: #5D5D5D;
+}
+
+#page{
+	margin: 20px auto;
+	width: 980px;
+	height: 1386px;
+	background-color: #FFFFFF;
+}
+
+#main{
+	width: 892px;
+	margin:0 auto;
+}
+#head{
+	height: 61px;
+	border-bottom: 2px solid #938e8c;
+	position: relative;
+}
+
+#logo{
+	width: 110px;
+	height: 61px;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	text-align: center;
+	background-color: #D55D5C;
+}
+#logo span{
+	position: relative;
+	top:40px;
+	font-family: "黑体";
+	font-size: 12px;
+	color: #FFFFFF;
+	
+}
+
+#head .time{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 110px;
+	height: 61px;
+	text-align: center;
+}
+
+#head .time span{
+	position: absolute;
+	top: 40px;
+	font-family: "黑体";
+	font-size: 12px;
+	color: #d45d5c;
+	
+}
+#top{
+	height: 301px;
+	width: 892px;
+	margin-top: 30px;
+	position: relative;
+}
+
+#top .pic1{
+	background-image: url(img/pic1.png);
+	background-size: 100% 100%;
+	width: 641px;
+	height: 301px;
+}
+
+#top .pic1 .left{
+	float: left;
+	opacity: 0.3;
+	width: 191px;
+	height: 301px;
+	background-color: #345544;
+
+}
+#top .pic1 .right{
+	float: right;
+	opacity: 0.3;
+	width: 191px;
+	height: 301px;
+	background-color: #E5B7B7;
+}
+
+#top .about{
+	width: 203px;
+	height: 298px;
+	position: absolute;
+	right:0;
+	top: 0;
+	border-top: 2px #cc8091 solid;
+
+
+}
+
+#top .about .p1{
+	font-size: 20px;
+	color:#000000;
+	font-family: "微软雅黑";
+	display: inline-block;
+	border-bottom: 2px solid #938e8c;
+	margin: 7px 0px ;
+
+}
+#top .about .p1:first-letter{
+	font-size: 24px;
+}
+#top .about .p2{
+	font-size: 20px;
+	color:#000000;
+	font-family: "微软雅黑";
+	display: inline-block;
+	border-bottom: 2px solid #938e8c;
+	margin-bottom: 7px;
+}
+#top .about .p2:first-letter{
+	font-size: 24px;
+}
+#top .about .p3{
+	font-size: 12px;
+	color:#676767;
+	font-family: "楷体";
+}
+#top .about .p4{
+	font-style: italic;
+	font-size: 116px;
+	color: #75b86b;
+	font-family: "微软雅黑"；
+	height:121px;
+	line-height: 121px;
+	text-indent: -15px;
+
+}
+#top .about .top{
+	height: 62px;
+	line-height: 62px;
+}
+#top .about .top .left,#top .about .top .right{
+	font-size: 55px;
+	color: #cc8091;
+	font-family: "微软雅黑";
+	height: 62px;
+	line-height: 62px;
+}
+#top .about .top .left{
+	float:left;
+}
+#top .about .top .right{
+	float:right;
+	width: 125px;
+}
+#top .about .top .right .p5{
+	font-size: 21px;
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+	top:20px;
+}
+#top .about .top .right .p6{
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+	top:18px;
+	color: #B7B7B7;
+}
+
+#middle{
+	width: 650px;
+	height:250px;
+	margin-top:30px;
+}
+
+#middle .left{
+	width: 210px;
+	height:230px;
+	margin: 10px 20px 10px 0;
+	float: left;
+}
+#middle .left span{
+	font-size: 16px;
+	color: #418c59;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: "微软雅黑";
+}
+#middle .left p{
+	margin-top: 10px;
+	font-size: 12px;
+	color: #231815;
+	font-family: "微软雅黑";
+	opacity: 0.7;
+}
+#middle .center{
+	width: 200px;
+	height:230px;
+	margin: 10px 20px 10px 0;
+	float: left;
+}
+#middle .center span{
+	font-size: 16px;
+	color: #d2994f;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: "微软雅黑";
+}
+#middle .center p{
+	margin-top: 10px;
+	font-size: 12px;
+	color: #231815;
+	font-family: "微软雅黑";
+	opacity: 0.7;
+}
+#middle .right{
+	width: 180px;
+	height:230px;
+	margin:10px 0;
+	float: left;
+}
+
+#middle .right span{
+	font-size: 16px;
+	color: #cc7680;
+	font-weight: bold;
+	text-decoration: underline;
+	font-family: "微软雅黑";
+}
+#middle .right .top{
+	margin: 10px 0 30px;
+	font-size: 12px;
+	color: #231815;
+	font-family: "微软雅黑";
+	opacity: 0.7;
+}
+#middle .right em{
+	color: #cd4a48;
+	font-style: italic;
+	opacity: 0.7;
+	
+}
+
+#footer{
+	width: 892px;
+	height: 630px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #938e8c;
+}
+#footer .left{
+	float: left;
+	width: 415px;
+	height: 630px;
+	background-color: #999;
+}
+#footer .right{
+	float: right;
+	width: 458px;
+	height: 630px;
+	background-color: #666;
+}
